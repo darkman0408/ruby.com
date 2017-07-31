@@ -1,0 +1,112 @@
+.wrap {
+    background-color: #a3d0e9;
+}
+
+.row {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.row p {
+    border: 1px solid blue;
+}
+
+.col-sm-2 {
+    border: 1px solid red;
+}
+
+.site-index .carousel-inner .item img {
+    min-width: 100%;
+}
+
+.site-index .carousel-pos {
+    position: relative;
+    margin-top: -7%;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: darkblue;
+}
+
+h1,
+.panel h3,
+.panel-txt-align h4,
+.panel-txt-align ul,
+.panel-txt-align .panel-body,
+p {
+    text-align: center;
+}
+
+.myAccount,
+.basket {
+    border: 1px solid red;
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+.cart {
+    /*float: left;*/
+    position: absolute;
+}
+
+.items {
+    z-index: 1;
+    /*float: left;*/
+    position: relative;
+    left: 15px;
+    vertical-align: top;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-color: red;
+    opacity: 0.8;
+    padding: 1px;
+}
+
+.recommendation {
+    float: left;
+    padding-top: 10px;
+}
+
+
+/*.showDivCss {
+    display: none;
+}*/
+
+.myToggleButton {
+    background: transparent;
+}
+
+.arrow {
+    visibility: hidden;
+}
+
+.myslick {
+    margin: 5px auto;
+    width: 100%;
+}
+
+.myslick .slick-slide {
+    margin: 0 6px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .panel-width {
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .popover-position {
+        visibility: hidden;
+    }
+}
